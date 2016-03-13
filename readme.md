@@ -3,7 +3,9 @@
 ##Implementation
 
 Language: Python
+
 Tools: Scrapy
+
 External library: NLTK, lxml
 
 
@@ -25,9 +27,7 @@ You need to install Scrapy 1.0.5, lxml 3.5.0, nltk 3.2 and Python 2.7
 ```
 scrapy crawl BrightEdge -a url="http://www.amazon.com/Cuisinart-CPT-122-Compact-2-Slice-Toaster/dp/B009GQ034C/ref=sr_1_1?s=kitchen&ie=UTF8&qid=1431620315&sr=1-1&keywords=toaster"
 
-
 scrapy crawl BrightEdge -a url="http://blog.rei.com/camp/how-to-introduce-your-indoorsy-friend-to-the-outdoors/"
-
 
 scrapy crawl BrightEdge -a url="http://www.cnn.com/2013/06/10/politics/edward-snowden-profile/"
 ```
@@ -35,14 +35,17 @@ scrapy crawl BrightEdge -a url="http://www.cnn.com/2013/06/10/politics/edward-sn
 ##Results for the 3 URLs
 
 1. http://www.amazon.com/Cuisinart-CPT-122-Compact-2-Slice-Toaster/dp/B009GQ034C/ref=sr_1_1?s=kitchen&ie=UTF8&qid=1431620315&sr=1-1&keywords=toaster
+	
 	['White', 'Compact Plastic Toaster', 'Conair Cuisinart CPT-122', 'Amazon.com', 'Kitchen', 'Dining']
 
 
 2. http://blog.rei.com/camp/how-to-introduce-your-indoorsy-friend-to-the-outdorrs/
+ 	
  	['Indoorsy Friend', 'Outdoors', 'REI Blog']
 
 
 3. http://www.cnn.com/2013/06/10/politics/edward-snowden-profile/
+	
 	['NSA', 'privacy', 'leaks', 'Man', 'CNNPolitics.com', 'liberty']
 
 
